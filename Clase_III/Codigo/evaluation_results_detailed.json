@@ -1,14 +1,14 @@
 {
-  "accuracy": 0.9,
-  "classification_report": "                precision    recall  f1-score   support\n\n    entailment       0.88      1.00      0.93         7\nnot_entailment       1.00      0.67      0.80         3\n\n      accuracy                           0.90        10\n     macro avg       0.94      0.83      0.87        10\n  weighted avg       0.91      0.90      0.89        10\n",
+  "accuracy": 1.0,
+  "classification_report": "                precision    recall  f1-score   support\n\n    entailment       1.00      1.00      1.00        12\nnot_entailment       1.00      1.00      1.00         8\n\n      accuracy                           1.00        20\n     macro avg       1.00      1.00      1.00        20\n  weighted avg       1.00      1.00      1.00        20\n",
   "examples_info": [
     {
       "idx": 0,
       "premise": "Dana Reeve, the widow of the actor Christopher Reeve, has died of lung cancer at age 44, according to the Christopher Reeve Foundation.",
       "hypothesis": "Christopher Reeve had an accident.",
       "true_label": "not_entailment",
-      "predicted": "entailment",
-      "correct": false
+      "predicted": "not_entailment",
+      "correct": true
     },
     {
       "idx": 1,
@@ -80,6 +80,86 @@
       "hypothesis": "The Raisani tribe resides in Pakistan.",
       "true_label": "entailment",
       "predicted": "entailment",
+      "correct": true
+    },
+    {
+      "idx": 10,
+      "premise": "The international humanitarian aid organization, Doctors Without Borders/Medecins Sans Frontieres (MSF), continues to treat victims of violence in all locations where it is present in Darfur.",
+      "hypothesis": "Doctors Without Borders is an international aid organization.",
+      "true_label": "entailment",
+      "predicted": "entailment",
+      "correct": true
+    },
+    {
+      "idx": 11,
+      "premise": "In a bowl, whisk together the eggs and sugar until completely blended and frothy.",
+      "hypothesis": "In a bowl, whisk together the egg, sugar and vanilla until light in color.",
+      "true_label": "not_entailment",
+      "predicted": "not_entailment",
+      "correct": true
+    },
+    {
+      "idx": 12,
+      "premise": "In Nigeria, by far the most populous country in sub-Saharan Africa, over 2.7 million people are infected with HIV.",
+      "hypothesis": "2.7 percent of the people infected with HIV live in Africa.",
+      "true_label": "not_entailment",
+      "predicted": "not_entailment",
+      "correct": true
+    },
+    {
+      "idx": 13,
+      "premise": "A jury is slated to decide for the first time whether Jack Kevorkian, famed as \"Dr. Death,\" has violated Michigan's assisted-suicide ban, while the state continues to grapple with the issue of what to allow when the ill want to end their pain by ending their lives.",
+      "hypothesis": "Jack Kevorkian is the real name of \"Dr. Death\".",
+      "true_label": "entailment",
+      "predicted": "entailment",
+      "correct": true
+    },
+    {
+      "idx": 14,
+      "premise": "Take consumer products giant Procter and Gamble. Even with a $1.8 billion Research and Development budget, it still manages 500 active partnerships each year, many of them with small companies.",
+      "hypothesis": "Procter and Gamble spends $1.8 billion for Research and Development.",
+      "true_label": "entailment",
+      "predicted": "entailment",
+      "correct": true
+    },
+    {
+      "idx": 15,
+      "premise": "Deceased U.S. soldiers and their effects were evacuated to Japan and then shipped home in refrigerated containers for interment in the U.S.",
+      "hypothesis": "The U.S. military evacuated U.S. citizens.",
+      "true_label": "not_entailment",
+      "predicted": "not_entailment",
+      "correct": true
+    },
+    {
+      "idx": 16,
+      "premise": "Mice given a substance found in red wine lived longer despite a fatty diet, a study shows.",
+      "hypothesis": "Mice fed with red wine lived longer despite a fatty diet.",
+      "true_label": "not_entailment",
+      "predicted": "not_entailment",
+      "correct": true
+    },
+    {
+      "idx": 17,
+      "premise": "Charles de Gaulle died in 1970 at the age of eighty. He was thus fifty years old when, as an unknown officer recently promoted to the (temporary) rank of brigadier general, he made his famous broadcast from London rejecting the capitulation of France to the Nazis after the debacle of May-June 1940.",
+      "hypothesis": "Charles de Gaulle died in 1970.",
+      "true_label": "entailment",
+      "predicted": "entailment",
+      "correct": true
+    },
+    {
+      "idx": 18,
+      "premise": "Teenage sensation Wayne Rooney powered England into the quarter-finals of Euro 2004 with two goals in Monday's 4-2 defeat of Croatia and they were joined in the last eight by champions France who beat Switzerland 3-1.",
+      "hypothesis": "France participates in Euro 2004.",
+      "true_label": "entailment",
+      "predicted": "entailment",
+      "correct": true
+    },
+    {
+      "idx": 19,
+      "premise": "Fujimori charged that on January 26, 1995, Ecuador fired the first shot, an allegation denied by Ecuador's leader, Sixto Duran-Ballen. Predictably, each side blamed the other for starting the 1995 conflict, just as each pointed the finger of guilt to the other for provoking the border war of 1941, when Peru took most of the 120,000 square miles in contention between the two countries.",
+      "hypothesis": "President Fujimori was re-elected in 1995.",
+      "true_label": "not_entailment",
+      "predicted": "not_entailment",
       "correct": true
     }
   ]

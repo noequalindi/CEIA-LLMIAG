@@ -18,7 +18,8 @@ import os
 
 def main():
     """
-    Esta función es el punto de entrada principal de la aplicación. Configura el cliente de Groq, la interfaz de Streamlit y maneja la interacción del chat.
+    Esta función es el punto de entrada principal de la aplicación. Configura el cliente de Groq, 
+    la interfaz de Streamlit y maneja la interacción del chat.
     """
     
     # Obtener la clave API de Groq

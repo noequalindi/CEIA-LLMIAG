@@ -1,8 +1,0 @@
-transformers
-PIL
-torch
-groq
-streamlit
-langchain
-langchain_core
-langchain_groq
